@@ -84,11 +84,11 @@ call plug#begin()
 Plug 'preservim/nerdtree'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
-Plug 'w0ng/vim-hybrid'
 Plug 'ctrlpvim/ctrlp.vim'
+Plug 'morhetz/gruvbox'
 call plug#end()
+colorscheme gruvbox
 set background=dark
-colorscheme hybrid
 let g:ctrlp_map = '<c-p>'
 nnoremap <leader>n :NERDTreeFocus<CR>
 nnoremap <C-n> :NERDTree<CR>
